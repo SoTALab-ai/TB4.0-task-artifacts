@@ -1,0 +1,26 @@
+{
+  "schema_version": "tb4.public-task-archive/v1",
+  "purpose": "native_qa_only",
+  "task_id": "session-window-operational-history",
+  "archive": "archives/session-window-operational-history-v4-native-qa-21.zip",
+  "sha256": "ab399770d1f576cd28554810e79e11be7ce542bda0fbf672b865d8e53937485e",
+  "bytes": 171805,
+  "candidate_sha256": "1c61c14dda05505e6f121478a2beb440d7dea6a6882865ae78cad1fc18fdadf8",
+  "bundle_sha256": "25101d3056054b662c9d30ac37b1c06cd98946ec9b33512e40c347efe6bf8a3f",
+  "source_test_outputs_sha256": "20bc89feb94e8ab2f5ac1164490cfa886bb7a8adb2ef34fa1720d6dc091b4020",
+  "case_count": 9,
+  "runtime_overlay": {
+    "agent.network_mode": "no-network"
+  },
+  "business_score": null,
+  "model_trial_certified": false,
+  "runtime_module_names": [
+    "__init__.py",
+    "acceptance.py",
+    "execution.py",
+    "native_qa_runtime.py",
+    "qa_runtime.py",
+    "quality.py",
+    "validation.py"
+  ]
+}
